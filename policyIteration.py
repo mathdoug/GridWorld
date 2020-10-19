@@ -79,3 +79,4 @@ if __name__ == "__main__":
     env.setPlan("gridworldPlans/plan0.txt", {0: -0.001, 3: 1, 4: 1, 5: -1, 6: -1})
 
     agent = PolicyIterationAgent(env)
+    #teste
