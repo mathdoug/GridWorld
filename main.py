@@ -14,8 +14,8 @@ if __name__ == "__main__":
 
     # Agent
     # agent = RandomAgent(env)
-    agent = PolicyIterationAgent(env, gamma=0.99)
-    # agent = ValueIterationAgent(env)
+    # agent = PolicyIterationAgent(env, gamma=0.99)
+    agent = ValueIterationAgent(env)
 
 
     # Loop
